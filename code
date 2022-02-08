@@ -1,0 +1,9 @@
+var Delay = 301000;
+setInterval("Spam()",Delay);
+function Spam()
+{
+document.getElementsByClassName("commentthread_textarea")[0].value = ("REP 4 REP INSTANTLY! \n ENG: Copy and paste one of them OR write whatever you want and I will answer you in my spare time 100%. I'm online now.\n RU: Пишете что-то из списка ниже ИЛИ напишите все, что хотите, и я вам пишу что захотите я сейчас в онлайне :)) \n \n +rep Good job \n +rep Friendly \n +rep Insane \n +rep nice trader \n +rep nice artwork \n +rep add me pls \n +rep nice profile  \n +rep Dead Incide  \n I LOVE YOU <3");
+document.getElementsByClassName("commentthread_textarea")[0].click();
+setTimeout(100);
+document.getElementsByClassName("btn_green_white_innerfade")[0].click();
+}
